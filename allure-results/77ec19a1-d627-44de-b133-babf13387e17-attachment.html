@@ -1,0 +1,2047 @@
+<html lang="en"><head>
+	<meta name="csrf-token" content="KtNRorlzjJWG6aleVWew8M4J3c4uVVjxcxwvlLBk">
+	<meta name="app-url" content="//cms.anhtester.com/">
+	<meta name="file-base-url" content="//cms.anhtester.com/public/">
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Favicon -->
+	<link rel="icon" href="https://cms.anhtester.com/public/uploads/all/2PX9TdFQQDfUsDJPMJlfQ1f644ztJ0NW3BsGdZ9C.png">
+	<title>Active eCommerce CMS | Anh Tester Demo</title>
+
+	<!-- google font -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+
+	<!-- aiz core css -->
+	<link rel="stylesheet" href="https://cms.anhtester.com/public/assets/css/vendors.css">
+    	<link rel="stylesheet" href="https://cms.anhtester.com/public/assets/css/aiz-core.css">
+
+    <style>
+        body {
+            font-size: 12px;
+        }
+    </style>
+	<script>
+    	var AIZ = AIZ || {};
+        AIZ.local = {
+            nothing_selected: 'Nothing selected',
+            nothing_found: 'Nothing found',
+            choose_file: 'Choose File',
+            file_selected: 'File selected',
+            files_selected: 'Files selected',
+            add_more_files: 'Add more files',
+            adding_more_files: 'Adding more files',
+            drop_files_here_paste_or: 'Drop files here, paste or',
+            browse: 'Browse',
+            upload_complete: 'Upload complete',
+            upload_paused: 'Upload paused',
+            resume_upload: 'Resume upload',
+            pause_upload: 'Pause upload',
+            retry_upload: 'Retry upload',
+            cancel_upload: 'Cancel upload',
+            uploading: 'Uploading',
+            processing: 'Processing',
+            complete: 'Complete',
+            file: 'File',
+            files: 'Files',
+        }
+	</script>
+
+<style type="text/css">/* Chart.js */
+@keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}</style></head>
+<body class="">
+
+	<div class="aiz-main-wrapper">
+        <style>
+.aiz-side-nav-logo-wrap a {
+    padding: 0px 25px;
+}
+
+.aiz-side-nav-logo-wrap img {
+    height: auto;
+}
+</style>
+
+<div class="aiz-sidebar-wrap">
+    <div class="aiz-sidebar left c-scrollbar">
+        <div class="aiz-side-nav-logo-wrap">
+            <a href="https://cms.anhtester.com/admin" class="d-block text-left">
+                                <img class="mw-100" src="https://cms.anhtester.com/public/uploads/all/74MAo7oxYYWuVKpnXdonCObVMAjA6TsB2o4qt4eK.png" alt="Active eCommerce CMS">
+                            </a>
+        </div>
+        <div class="aiz-side-nav-wrap">
+            <div class="px-20px mb-3">
+                <input class="form-control bg-soft-secondary border-0 form-control-sm text-white" type="text" name="" placeholder="Search in menu" id="menu-search" onkeyup="menuSearch()">
+            </div>
+            <ul class="aiz-side-nav-list" id="search-menu">
+            </ul>
+            <ul class="aiz-side-nav-list metismenu" id="main-menu" data-toggle="aiz-side-menu">
+
+                
+                                <li class="aiz-side-nav-item mm-active">
+                    <a href="https://cms.anhtester.com/admin" class="aiz-side-nav-link active" aria-expanded="true">
+                        <i class="las la-home aiz-side-nav-icon"></i>
+                        <span class="aiz-side-nav-text">Dashboard</span>
+                    </a>
+                </li>
+                
+                <!-- POS Addon-->
+                
+                <!-- Product -->
+                                <li class="aiz-side-nav-item">
+                    <a href="#" class="aiz-side-nav-link">
+                        <i class="las la-shopping-cart aiz-side-nav-icon"></i>
+                        <span class="aiz-side-nav-text">Products</span>
+                        <span class="aiz-side-nav-arrow"></span>
+                    </a>
+                    <!--Submenu-->
+                    <ul class="aiz-side-nav-list level-2 mm-collapse">
+                                                <li class="aiz-side-nav-item">
+                            <a class="aiz-side-nav-link" href="https://cms.anhtester.com/admin/products/create">
+                                <span class="aiz-side-nav-text">Add New Product</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/products/all" class="aiz-side-nav-link">
+                                <span class="aiz-side-nav-text">All products</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/products/admin" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">In House Products</span>
+                            </a>
+                        </li>
+                                                                                                <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/products/seller" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Seller Products</span>
+                            </a>
+                        </li>
+                                                                                                <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/digitalproducts" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Digital Products</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/product-bulk-upload/index" class="aiz-side-nav-link">
+                                <span class="aiz-side-nav-text">Bulk Import</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/product-bulk-export" class="aiz-side-nav-link">
+                                <span class="aiz-side-nav-text">Bulk Export</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/categories" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Category</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/brands" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Brand</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/attributes" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Attribute</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/colors" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Colors</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/reviews" class="aiz-side-nav-link">
+                                <span class="aiz-side-nav-text">Product Reviews</span>
+                            </a>
+                        </li>
+                                            </ul>
+                </li>
+                
+                <!-- Auction Product -->
+                
+                <!-- Wholesale Product -->
+                
+                <!-- Sale -->
+                                <li class="aiz-side-nav-item">
+                    <a href="#" class="aiz-side-nav-link">
+                        <i class="las la-money-bill aiz-side-nav-icon"></i>
+                        <span class="aiz-side-nav-text">Sales</span>
+                        <span class="aiz-side-nav-arrow"></span>
+                    </a>
+                    <!--Submenu-->
+                    <ul class="aiz-side-nav-list level-2 mm-collapse">
+                                                <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/all_orders" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">All Orders</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/inhouse-orders" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Inhouse orders</span>
+                            </a>
+                        </li>
+                        
+                                                <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/seller_orders" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Seller Orders</span>
+                            </a>
+                        </li>
+                        
+                                                <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/orders_by_pickup_point" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Pick-up Point Order</span>
+                            </a>
+                        </li>
+                                            </ul>
+                </li>
+                
+                <!-- Deliver Boy Addon-->
+                
+                <!-- Refund addon -->
+                
+                <!-- Customers -->
+                                <li class="aiz-side-nav-item">
+                    <a href="#" class="aiz-side-nav-link">
+                        <i class="las la-user-friends aiz-side-nav-icon"></i>
+                        <span class="aiz-side-nav-text">Customers</span>
+                        <span class="aiz-side-nav-arrow"></span>
+                    </a>
+                    <ul class="aiz-side-nav-list level-2 mm-collapse">
+                                                <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/customers" class="aiz-side-nav-link">
+                                <span class="aiz-side-nav-text">Customer list</span>
+                            </a>
+                        </li>
+                                                                    </ul>
+                </li>
+                
+                <!-- Sellers -->
+                
+                
+                <li class="aiz-side-nav-item">
+                    <a href="https://cms.anhtester.com/admin/uploaded-files" class="aiz-side-nav-link ">
+                        <i class="las la-folder-open aiz-side-nav-icon"></i>
+                        <span class="aiz-side-nav-text">Uploaded Files</span>
+                    </a>
+                </li>
+
+                <!-- Reports -->
+                                <li class="aiz-side-nav-item">
+                    <a href="#" class="aiz-side-nav-link">
+                        <i class="las la-file-alt aiz-side-nav-icon"></i>
+                        <span class="aiz-side-nav-text">Reports</span>
+                        <span class="aiz-side-nav-arrow"></span>
+                    </a>
+                    <ul class="aiz-side-nav-list level-2 mm-collapse">
+                                                <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/in_house_sale_report" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">In House Product Sale</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/seller_sale_report" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Seller Products Sale</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/stock_report" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Products Stock</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/wish_report" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Products wishlist</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/user_search_report" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">User Searches</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/commission-log" class="aiz-side-nav-link">
+                                <span class="aiz-side-nav-text">Commission History</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/wallet-history" class="aiz-side-nav-link">
+                                <span class="aiz-side-nav-text">Wallet Recharge History</span>
+                            </a>
+                        </li>
+                                            </ul>
+                </li>
+                
+                <!--Blog System-->
+                                <li class="aiz-side-nav-item">
+                    <a href="#" class="aiz-side-nav-link">
+                        <i class="las la-bullhorn aiz-side-nav-icon"></i>
+                        <span class="aiz-side-nav-text">Blog System</span>
+                        <span class="aiz-side-nav-arrow"></span>
+                    </a>
+                    <ul class="aiz-side-nav-list level-2 mm-collapse">
+                                                <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/blog" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">All Posts</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/blog-category" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Categories</span>
+                            </a>
+                        </li>
+                                            </ul>
+                </li>
+                
+                <!-- marketing -->
+                                <li class="aiz-side-nav-item">
+                    <a href="#" class="aiz-side-nav-link">
+                        <i class="las la-bullhorn aiz-side-nav-icon"></i>
+                        <span class="aiz-side-nav-text">Marketing</span>
+                        <span class="aiz-side-nav-arrow"></span>
+                    </a>
+                    <ul class="aiz-side-nav-list level-2 mm-collapse">
+                                                <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/flash_deals" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Flash deals</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/newsletter" class="aiz-side-nav-link">
+                                <span class="aiz-side-nav-text">Newsletters</span>
+                            </a>
+                        </li>
+                                                                                                <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/subscribers" class="aiz-side-nav-link">
+                                <span class="aiz-side-nav-text">Subscribers</span>
+                            </a>
+                        </li>
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/coupon" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Coupon</span>
+                            </a>
+                        </li>
+                                            </ul>
+                </li>
+                
+                <!-- Support -->
+                                <li class="aiz-side-nav-item">
+                    <a href="#" class="aiz-side-nav-link">
+                        <i class="las la-link aiz-side-nav-icon"></i>
+                        <span class="aiz-side-nav-text">Support</span>
+                        <span class="aiz-side-nav-arrow"></span>
+                    </a>
+                    <ul class="aiz-side-nav-list level-2 mm-collapse">
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/support_ticket" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Ticket</span>
+                                <span class="badge badge-info">10</span>                            </a>
+                        </li>
+                        
+                                                                        <li class="aiz-side-nav-item">
+                            <a href="https://cms.anhtester.com/admin/conversations" class="aiz-side-nav-link ">
+                                <span class="aiz-side-nav-text">Product Conversations</span>
+                                                            </a>
+                        </li>
+                                                                    </ul>
+                </li>
+                
+                <!-- Affiliate Addon -->
+                
+                <!-- Offline Payment Addon-->
+                
+                <!-- Paytm Addon -->
+                
+                <!-- Club Point Addon-->
+                
+                <!--OTP addon -->
+                
+                
+                <!-- Website Setup -->
+                
+                <!-- Setup & Configurations -->
+                
+                <!-- Staffs -->
+                
+                
+                
+                <!-- Addon Manager -->
+                            </ul><!-- .aiz-side-nav -->
+        </div><!-- .aiz-side-nav-wrap -->
+    </div><!-- .aiz-sidebar -->
+    <div class="aiz-sidebar-overlay"></div>
+</div><!-- .aiz-sidebar -->		<div class="aiz-content-wrapper">
+            <div class="aiz-topbar px-15px px-lg-25px d-flex align-items-stretch justify-content-between">
+    <div class="d-flex">
+        <div class="aiz-topbar-nav-toggler d-flex align-items-center justify-content-start mr-2 mr-md-3 ml-0" data-toggle="aiz-mobile-nav">
+            <button class="aiz-mobile-toggler">
+                <span></span>
+            </button>
+        </div>
+    </div>
+    <div class="d-flex justify-content-between align-items-stretch flex-grow-xl-1">
+        <div class="d-flex justify-content-around align-items-center align-items-stretch">
+            <div class="d-flex justify-content-around align-items-center align-items-stretch">
+                <div class="aiz-topbar-item">
+                    <div class="d-flex align-items-center">
+                        <a class="btn btn-icon btn-circle btn-light" href="https://cms.anhtester.com" target="_blank" title="Browse Website">
+                            <i class="las la-globe"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+                        <div class="d-flex justify-content-around align-items-center align-items-stretch ml-3">
+                <div class="aiz-topbar-item">
+                    <div class="d-flex align-items-center">
+                        <a class="btn btn-soft-danger btn-sm d-flex align-items-center" href="https://cms.anhtester.com/admin/clear-cache">
+                            <i class="las la-hdd fs-20"></i>
+                            <span class="fw-500 ml-1 mr-0 d-none d-md-block">Clear Cache</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-around align-items-center align-items-stretch">
+
+            <div class="aiz-topbar-item ml-2">
+                <div class="align-items-stretch d-flex dropdown">
+                    <a class="dropdown-toggle no-arrow" data-toggle="dropdown" href="javascript:void(0);" role="button" aria-haspopup="false" aria-expanded="false">
+                        <span class="btn btn-icon p-0 d-flex justify-content-center align-items-center">
+                            <span class="d-flex align-items-center position-relative">
+                                <i class="las la-bell fs-24"></i>
+                                                            </span>
+                        </span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-menu-lg py-0">
+                        <div class="p-3 bg-light border-bottom">
+                            <h6 class="mb-0">Notifications</h6>
+                        </div>
+                        <div class="px-3 c-scrollbar-light overflow-auto " style="max-height:300px;">
+                            <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">
+                                        <div class="py-4 text-center fs-16">
+                                            No notification found
+                                        </div>
+                                    </li>
+                                                            </ul>
+                        </div>
+                        <div class="text-center border-top">
+                            <a href="https://cms.anhtester.com/admin/all-notification" class="text-reset d-block py-2">
+                                View All Notifications
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+                        <div class="aiz-topbar-item ml-2">
+                <div class="align-items-stretch d-flex dropdown " id="lang-change">
+                    <a class="dropdown-toggle no-arrow" data-toggle="dropdown" href="javascript:void(0);" role="button" aria-haspopup="false" aria-expanded="false">
+                        <span class="btn btn-icon">
+                            <img src="https://cms.anhtester.com/public/assets/img/flags/en.png" height="11">
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-menu-xs">
+
+                                                    <li>
+                                <a href="javascript:void(0)" data-flag="en" class="dropdown-item  active ">
+                                    <img src="https://cms.anhtester.com/public/assets/img/flags/en.png" class="mr-2">
+                                    <span class="language">English</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="javascript:void(0)" data-flag="vn" class="dropdown-item ">
+                                    <img src="https://cms.anhtester.com/public/assets/img/flags/vn.png" class="mr-2">
+                                    <span class="language">Vietnamese</span>
+                                </a>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+
+            <div class="aiz-topbar-item ml-2">
+                <div class="align-items-stretch d-flex dropdown">
+                    <a class="dropdown-toggle no-arrow text-dark" data-toggle="dropdown" href="javascript:void(0);" role="button" aria-haspopup="false" aria-expanded="false">
+                        <span class="d-flex align-items-center">
+                            <span class="avatar avatar-sm mr-md-2">
+                                <img src="https://cms.anhtester.com/public/uploads/all/OPtGeWk4KZDGxuPRDVKmungVkrKbSKuPG4l3Xm7q.jpg" onerror="this.onerror=null;this.src='https://cms.anhtester.com/public/assets/img/avatar-place.png';">
+                            </span>
+                            <span class="d-none d-md-block">
+                                <span class="d-block fw-500">Admin Example</span>
+                                <span class="d-block small opacity-60">staff</span>
+                            </span>
+                        </span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-menu-md">
+                        <a href="https://cms.anhtester.com/admin/profile" class="dropdown-item">
+                            <i class="las la-user-circle"></i>
+                            <span>Profile</span>
+                        </a>
+
+                        <a href="https://cms.anhtester.com/logout" class="dropdown-item">
+                            <i class="las la-sign-out-alt"></i>
+                            <span>Logout</span>
+                        </a>
+                    </div>
+                </div>
+            </div><!-- .aiz-topbar-item -->
+        </div>
+    </div>
+</div><!-- .aiz-topbar -->
+			<div class="aiz-main-content">
+				<div class="px-15px px-lg-25px">
+                    <div class="row gutters-10">
+    <div class="col-lg-6">
+        <div class="row gutters-10">
+            <div class="col-6">
+                <div class="bg-grad-2 text-white rounded-lg mb-4 overflow-hidden">
+                    <div class="px-3 pt-3">
+                        <div class="opacity-50">
+                            <span class="fs-12 d-block">Total</span>
+                            Customer
+                        </div>
+                        <div class="h3 fw-700 mb-3">
+                            2417
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                        <path fill="rgba(255,255,255,0.3)" fill-opacity="1" d="M0,128L34.3,112C68.6,96,137,64,206,96C274.3,128,343,224,411,250.7C480,277,549,235,617,213.3C685.7,192,754,192,823,181.3C891.4,171,960,149,1029,117.3C1097.1,85,1166,43,1234,58.7C1302.9,75,1371,149,1406,186.7L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="bg-grad-3 text-white rounded-lg mb-4 overflow-hidden">
+                    <div class="px-3 pt-3">
+                        <div class="opacity-50">
+                            <span class="fs-12 d-block">Total</span>
+                            Order
+                        </div>
+                        <div class="h3 fw-700 mb-3">725</div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                        <path fill="rgba(255,255,255,0.3)" fill-opacity="1" d="M0,128L34.3,112C68.6,96,137,64,206,96C274.3,128,343,224,411,250.7C480,277,549,235,617,213.3C685.7,192,754,192,823,181.3C891.4,171,960,149,1029,117.3C1097.1,85,1166,43,1234,58.7C1302.9,75,1371,149,1406,186.7L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="bg-grad-1 text-white rounded-lg mb-4 overflow-hidden">
+                    <div class="px-3 pt-3">
+                        <div class="opacity-50">
+                            <span class="fs-12 d-block">Total</span>
+                            Product category
+                        </div>
+                        <div class="h3 fw-700 mb-3">368</div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                        <path fill="rgba(255,255,255,0.3)" fill-opacity="1" d="M0,128L34.3,112C68.6,96,137,64,206,96C274.3,128,343,224,411,250.7C480,277,549,235,617,213.3C685.7,192,754,192,823,181.3C891.4,171,960,149,1029,117.3C1097.1,85,1166,43,1234,58.7C1302.9,75,1371,149,1406,186.7L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="bg-grad-4 text-white rounded-lg mb-4 overflow-hidden">
+                    <div class="px-3 pt-3">
+                        <div class="opacity-50">
+                            <span class="fs-12 d-block">Total</span>
+                            Product brand
+                        </div>
+                        <div class="h3 fw-700 mb-3">83</div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                        <path fill="rgba(255,255,255,0.3)" fill-opacity="1" d="M0,128L34.3,112C68.6,96,137,64,206,96C274.3,128,343,224,411,250.7C480,277,549,235,617,213.3C685.7,192,754,192,823,181.3C891.4,171,960,149,1029,117.3C1097.1,85,1166,43,1234,58.7C1302.9,75,1371,149,1406,186.7L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+        <div class="row gutters-10">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h6 class="mb-0 fs-14">Products</h6>
+                    </div>
+                    <div class="card-body"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                        <canvas id="pie-1" class="w-100 chartjs-render-monitor" height="306" width="171" style="display: block; width: 171px; height: 306px;"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h6 class="mb-0 fs-14">Sellers</h6>
+                    </div>
+                    <div class="card-body"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                        <canvas id="pie-2" class="w-100 chartjs-render-monitor" height="306" width="171" style="display: block; width: 171px; height: 306px;"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row gutters-10">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h6 class="mb-0 fs-14">Category wise product sale</h6>
+            </div>
+            <div class="card-body"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                <canvas id="graph-1" class="w-100 chartjs-render-monitor" height="500" width="413" style="display: block;"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h6 class="mb-0 fs-14">Category wise product stock</h6>
+            </div>
+            <div class="card-body"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                <canvas id="graph-2" class="w-100 chartjs-render-monitor" height="500" width="413" style="display: block;"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <h6 class="mb-0">Top 12 Products</h6>
+    </div>
+    <div class="card-body">
+        <div class="aiz-carousel gutters-10 half-outside-arrow slick-initialized slick-slider" data-items="6" data-xl-items="5" data-lg-items="4" data-md-items="3" data-sm-items="2" data-arrows="true"><button type="button" class="slick-prev slick-arrow slick-disabled" aria-disabled="true" style=""><i class="las la-angle-left"></i></button><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 2208px; transform: translate3d(0px, 0px, 0px);"><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 184px;"><div><div class="carousel-box" style="width: 100%; display: inline-block;">
+                    <div class="aiz-card-box border border-light rounded shadow-sm hov-shadow-md mb-2 has-transition bg-white">
+                        <div class="position-relative">
+                            <a href="https://cms.anhtester.com/product/gio-qua-tet-thuy-dung-czrfanyb" class="d-block" tabindex="0">
+                                <img class="img-fit mx-auto h-210px lazyloaded" src="https://cms.anhtester.com/public/uploads/all/BVo5gtBPipsZnyxCMsT6TwylCWLj3KgDdKcqWhbh.jpg" data-src="https://cms.anhtester.com/public/uploads/all/BVo5gtBPipsZnyxCMsT6TwylCWLj3KgDdKcqWhbh.jpg" alt="Gio qua Tet Thuy Dung CZRFANYB" onerror="this.onerror=null;this.src='https://cms.anhtester.com/public/assets/img/placeholder.jpg';">
+                            </a>
+                        </div>
+                        <div class="p-md-3 p-2 text-left">
+                            <div class="fs-15">
+                                                                <span class="fw-700 text-primary">$500,000.55</span>
+                            </div>
+                            <div class="rating rating-sm mt-1">
+                                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i>
+                            </div>
+                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                <a href="https://cms.anhtester.com/product/gio-qua-tet-thuy-dung-czrfanyb" class="d-block text-reset" tabindex="0">Gio qua Tet Thuy Dung CZRFANYB</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div></div></div><div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 184px;"><div><div class="carousel-box" style="width: 100%; display: inline-block;">
+                    <div class="aiz-card-box border border-light rounded shadow-sm hov-shadow-md mb-2 has-transition bg-white">
+                        <div class="position-relative">
+                            <a href="https://cms.anhtester.com/product/tet-tailoc-wmmyu" class="d-block" tabindex="0">
+                                <img class="img-fit mx-auto h-210px lazyloaded" src="https://cms.anhtester.com/public/uploads/all/L1QvFN0itTrMCvtOnCmhBPHBoRKay1Pj706b5jP8.png" data-src="https://cms.anhtester.com/public/uploads/all/L1QvFN0itTrMCvtOnCmhBPHBoRKay1Pj706b5jP8.png" alt="Adobe Premiere Elements 2022 | PC/Mac Disc" onerror="this.onerror=null;this.src='https://cms.anhtester.com/public/assets/img/placeholder.jpg';">
+                            </a>
+                        </div>
+                        <div class="p-md-3 p-2 text-left">
+                            <div class="fs-15">
+                                                                <span class="fw-700 text-primary">$836,000.00</span>
+                            </div>
+                            <div class="rating rating-sm mt-1">
+                                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i>
+                            </div>
+                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                <a href="https://cms.anhtester.com/product/tet-tailoc-wmmyu" class="d-block text-reset" tabindex="0">Adobe Premiere Elements 2022 | PC/Mac Disc</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div></div></div><div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 184px;"><div><div class="carousel-box" style="width: 100%; display: inline-block;">
+                    <div class="aiz-card-box border border-light rounded shadow-sm hov-shadow-md mb-2 has-transition bg-white">
+                        <div class="position-relative">
+                            <a href="https://cms.anhtester.com/product/gio-qua-tet-thuy-dung-eewcocea" class="d-block" tabindex="0">
+                                <img class="img-fit mx-auto h-210px lazyloaded" src="https://cms.anhtester.com/public/uploads/all/77JuaZmKu2d9SL8KktMZ4klo8Piza1DbT1yf9hpD.jpg" data-src="https://cms.anhtester.com/public/uploads/all/77JuaZmKu2d9SL8KktMZ4klo8Piza1DbT1yf9hpD.jpg" alt="Cosy Thuy Dung Update VFYJWRFN" onerror="this.onerror=null;this.src='https://cms.anhtester.com/public/assets/img/placeholder.jpg';">
+                            </a>
+                        </div>
+                        <div class="p-md-3 p-2 text-left">
+                            <div class="fs-15">
+                                                                <span class="fw-700 text-primary">$505,000.00</span>
+                            </div>
+                            <div class="rating rating-sm mt-1">
+                                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i>
+                            </div>
+                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                <a href="https://cms.anhtester.com/product/gio-qua-tet-thuy-dung-eewcocea" class="d-block text-reset" tabindex="0">Cosy Thuy Dung Update VFYJWRFN</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div></div></div><div class="slick-slide slick-active" data-slick-index="3" aria-hidden="false" style="width: 184px;"><div><div class="carousel-box" style="width: 100%; display: inline-block;">
+                    <div class="aiz-card-box border border-light rounded shadow-sm hov-shadow-md mb-2 has-transition bg-white">
+                        <div class="position-relative">
+                            <a href="https://cms.anhtester.com/product/cosy-thuy-dung-ootvujln" class="d-block" tabindex="0">
+                                <img class="img-fit mx-auto h-210px lazyloaded" src="https://cms.anhtester.com/public/uploads/all/FL1wqsUQxaRJdklKts6CJgo0jO7hMQuWfKf17gjV.png" data-src="https://cms.anhtester.com/public/uploads/all/FL1wqsUQxaRJdklKts6CJgo0jO7hMQuWfKf17gjV.png" alt="Cosy Thuy Dung OOTVUJLN" onerror="this.onerror=null;this.src='https://cms.anhtester.com/public/assets/img/placeholder.jpg';">
+                            </a>
+                        </div>
+                        <div class="p-md-3 p-2 text-left">
+                            <div class="fs-15">
+                                                                <span class="fw-700 text-primary">$143,000.00</span>
+                            </div>
+                            <div class="rating rating-sm mt-1">
+                                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i>
+                            </div>
+                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                <a href="https://cms.anhtester.com/product/cosy-thuy-dung-ootvujln" class="d-block text-reset" tabindex="0">Cosy Thuy Dung OOTVUJLN</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div></div></div><div class="slick-slide slick-active" data-slick-index="4" aria-hidden="false" style="width: 184px;"><div><div class="carousel-box" style="width: 100%; display: inline-block;">
+                    <div class="aiz-card-box border border-light rounded shadow-sm hov-shadow-md mb-2 has-transition bg-white">
+                        <div class="position-relative">
+                            <a href="https://cms.anhtester.com/product/sting" class="d-block" tabindex="0">
+                                <img class="img-fit mx-auto h-210px lazyloaded" src="https://cms.anhtester.com/public/uploads/all/wuicNr1RzVWYLjcjWoHBwDtapqZA3GKcYkSx0IJN.jpg" data-src="https://cms.anhtester.com/public/uploads/all/wuicNr1RzVWYLjcjWoHBwDtapqZA3GKcYkSx0IJN.jpg" alt="Sting" onerror="this.onerror=null;this.src='https://cms.anhtester.com/public/assets/img/placeholder.jpg';">
+                            </a>
+                        </div>
+                        <div class="p-md-3 p-2 text-left">
+                            <div class="fs-15">
+                                                                <span class="fw-700 text-primary">$200,000.00</span>
+                            </div>
+                            <div class="rating rating-sm mt-1">
+                                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i>
+                            </div>
+                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                <a href="https://cms.anhtester.com/product/sting" class="d-block text-reset" tabindex="0">Sting</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div></div></div><div class="slick-slide" data-slick-index="5" aria-hidden="true" style="width: 184px;" tabindex="-1"><div><div class="carousel-box" style="width: 100%; display: inline-block;">
+                    <div class="aiz-card-box border border-light rounded shadow-sm hov-shadow-md mb-2 has-transition bg-white">
+                        <div class="position-relative">
+                            <a href="https://cms.anhtester.com/product/gio-qua-tet-hquha" class="d-block" tabindex="-1">
+                                <img class="img-fit mx-auto h-210px lazyloaded" src="https://cms.anhtester.com/public/uploads/all/Z20KFAAYV54ckXmR4jcQHOFrRyuI31STQUE0K7k1.jpg" data-src="https://cms.anhtester.com/public/uploads/all/Z20KFAAYV54ckXmR4jcQHOFrRyuI31STQUE0K7k1.jpg" alt="Gio qua Tet hquHA" onerror="this.onerror=null;this.src='https://cms.anhtester.com/public/assets/img/placeholder.jpg';">
+                            </a>
+                        </div>
+                        <div class="p-md-3 p-2 text-left">
+                            <div class="fs-15">
+                                                                <span class="fw-700 text-primary">$500,000.00</span>
+                            </div>
+                            <div class="rating rating-sm mt-1">
+                                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i>
+                            </div>
+                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                <a href="https://cms.anhtester.com/product/gio-qua-tet-hquha" class="d-block text-reset" tabindex="-1">Gio qua Tet hquHA</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div></div></div><div class="slick-slide" data-slick-index="6" aria-hidden="true" style="width: 184px;" tabindex="-1"><div><div class="carousel-box" style="width: 100%; display: inline-block;">
+                    <div class="aiz-card-box border border-light rounded shadow-sm hov-shadow-md mb-2 has-transition bg-white">
+                        <div class="position-relative">
+                            <a href="https://cms.anhtester.com/product/banh-cosy" class="d-block" tabindex="-1">
+                                <img class="img-fit mx-auto h-210px lazyloaded" src="https://cms.anhtester.com/public/uploads/all/5ez7sVdJseQKI86aAgh3HGiQi92zdT3Gr43RB37K.png" data-src="https://cms.anhtester.com/public/uploads/all/5ez7sVdJseQKI86aAgh3HGiQi92zdT3Gr43RB37K.png" alt="Bánh Cosy" onerror="this.onerror=null;this.src='https://cms.anhtester.com/public/assets/img/placeholder.jpg';">
+                            </a>
+                        </div>
+                        <div class="p-md-3 p-2 text-left">
+                            <div class="fs-15">
+                                                                <span class="fw-700 text-primary">$204,000.00</span>
+                            </div>
+                            <div class="rating rating-sm mt-1">
+                                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i>
+                            </div>
+                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                <a href="https://cms.anhtester.com/product/banh-cosy" class="d-block text-reset" tabindex="-1">Bánh Cosy</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div></div></div><div class="slick-slide" data-slick-index="7" aria-hidden="true" style="width: 184px;" tabindex="-1"><div><div class="carousel-box" style="width: 100%; display: inline-block;">
+                    <div class="aiz-card-box border border-light rounded shadow-sm hov-shadow-md mb-2 has-transition bg-white">
+                        <div class="position-relative">
+                            <a href="https://cms.anhtester.com/product/productyp2ia" class="d-block" tabindex="-1">
+                                <img class="img-fit mx-auto h-210px lazyloaded" src="https://cms.anhtester.com/public/uploads/all/JiKN9zo5ZO9sib5GTktZOOh5FAXDZYl6BFbFd7T2.jpg" data-src="https://cms.anhtester.com/public/uploads/all/JiKN9zo5ZO9sib5GTktZOOh5FAXDZYl6BFbFd7T2.jpg" alt="ProductyP2iA" onerror="this.onerror=null;this.src='https://cms.anhtester.com/public/assets/img/placeholder.jpg';">
+                            </a>
+                        </div>
+                        <div class="p-md-3 p-2 text-left">
+                            <div class="fs-15">
+                                                                    <del class="fw-600 opacity-50 mr-1">$500,000.00</del>
+                                                                <span class="fw-700 text-primary">$490,000.00</span>
+                            </div>
+                            <div class="rating rating-sm mt-1">
+                                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i>
+                            </div>
+                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                <a href="https://cms.anhtester.com/product/productyp2ia" class="d-block text-reset" tabindex="-1">ProductyP2iA</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div></div></div><div class="slick-slide" data-slick-index="8" aria-hidden="true" style="width: 184px;" tabindex="-1"><div><div class="carousel-box" style="width: 100%; display: inline-block;">
+                    <div class="aiz-card-box border border-light rounded shadow-sm hov-shadow-md mb-2 has-transition bg-white">
+                        <div class="position-relative">
+                            <a href="https://cms.anhtester.com/product/cosy-truong-jcpoxjoq" class="d-block" tabindex="-1">
+                                <img class="img-fit lazyload mx-auto h-210px" src="https://cms.anhtester.com/public/assets/img/placeholder.jpg" data-src="https://cms.anhtester.com/public/uploads/all/5fVdN0iAgiepzrVQupdJzZj2FPzpwGVkHVyWOf2Q.png" alt="Cosy TRUONG_jcpoxjOQ" onerror="this.onerror=null;this.src='https://cms.anhtester.com/public/assets/img/placeholder.jpg';">
+                            </a>
+                        </div>
+                        <div class="p-md-3 p-2 text-left">
+                            <div class="fs-15">
+                                                                <span class="fw-700 text-primary">$138,000.00</span>
+                            </div>
+                            <div class="rating rating-sm mt-1">
+                                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i>
+                            </div>
+                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                <a href="https://cms.anhtester.com/product/cosy-truong-jcpoxjoq" class="d-block text-reset" tabindex="-1">Cosy TRUONG_jcpoxjOQ</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div></div></div><div class="slick-slide" data-slick-index="9" aria-hidden="true" style="width: 184px;" tabindex="-1"><div><div class="carousel-box" style="width: 100%; display: inline-block;">
+                    <div class="aiz-card-box border border-light rounded shadow-sm hov-shadow-md mb-2 has-transition bg-white">
+                        <div class="position-relative">
+                            <a href="https://cms.anhtester.com/product/cosy-thuy-dung-gbnxjuzq" class="d-block" tabindex="-1">
+                                <img class="img-fit lazyload mx-auto h-210px" src="https://cms.anhtester.com/public/assets/img/placeholder.jpg" data-src="https://cms.anhtester.com/public/uploads/all/OavASX1KD0zZHYdqtteaFaVuMiGXQLUN4ZMWZdwy.png" alt="Cosy Thuy Dung GBNXJUZQ" onerror="this.onerror=null;this.src='https://cms.anhtester.com/public/assets/img/placeholder.jpg';">
+                            </a>
+                        </div>
+                        <div class="p-md-3 p-2 text-left">
+                            <div class="fs-15">
+                                                                <span class="fw-700 text-primary">$138,000.00</span>
+                            </div>
+                            <div class="rating rating-sm mt-1">
+                                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i>
+                            </div>
+                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                <a href="https://cms.anhtester.com/product/cosy-thuy-dung-gbnxjuzq" class="d-block text-reset" tabindex="-1">Cosy Thuy Dung GBNXJUZQ</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div></div></div><div class="slick-slide" data-slick-index="10" aria-hidden="true" style="width: 184px;" tabindex="-1"><div><div class="carousel-box" style="width: 100%; display: inline-block;">
+                    <div class="aiz-card-box border border-light rounded shadow-sm hov-shadow-md mb-2 has-transition bg-white">
+                        <div class="position-relative">
+                            <a href="https://cms.anhtester.com/product/gio-qua-tet-mxztw" class="d-block" tabindex="-1">
+                                <img class="img-fit lazyload mx-auto h-210px" src="https://cms.anhtester.com/public/assets/img/placeholder.jpg" data-src="https://cms.anhtester.com/public/uploads/all/toNkpvOd4MK49GAcNOrTM4uHQUPmK7SOMNaVlnEc.jpg" alt="Giỏ quà Tết mXztW" onerror="this.onerror=null;this.src='https://cms.anhtester.com/public/assets/img/placeholder.jpg';">
+                            </a>
+                        </div>
+                        <div class="p-md-3 p-2 text-left">
+                            <div class="fs-15">
+                                                                <span class="fw-700 text-primary">$5,000,000.00</span>
+                            </div>
+                            <div class="rating rating-sm mt-1">
+                                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i>
+                            </div>
+                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                <a href="https://cms.anhtester.com/product/gio-qua-tet-mxztw" class="d-block text-reset" tabindex="-1">Giỏ quà Tết mXztW</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div></div></div><div class="slick-slide" data-slick-index="11" aria-hidden="true" style="width: 184px;" tabindex="-1"><div><div class="carousel-box" style="width: 100%; display: inline-block;">
+                    <div class="aiz-card-box border border-light rounded shadow-sm hov-shadow-md mb-2 has-transition bg-white">
+                        <div class="position-relative">
+                            <a href="https://cms.anhtester.com/product/cosy-mtgrm" class="d-block" tabindex="-1">
+                                <img class="img-fit lazyload mx-auto h-210px" src="https://cms.anhtester.com/public/assets/img/placeholder.jpg" data-src="https://cms.anhtester.com/public/uploads/all/VbQLnuAkKWa3AizwX5aLBTUyS8giYd6pOPNYAJ01.png" alt="Apple iPhone 14 Pro , 128GB, 512GB, Deep Purple- Unlocked" onerror="this.onerror=null;this.src='https://cms.anhtester.com/public/assets/img/placeholder.jpg';">
+                            </a>
+                        </div>
+                        <div class="p-md-3 p-2 text-left">
+                            <div class="fs-15">
+                                                                <span class="fw-700 text-primary">$138,000.00</span>
+                            </div>
+                            <div class="rating rating-sm mt-1">
+                                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i>
+                            </div>
+                            <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
+                                <a href="https://cms.anhtester.com/product/cosy-mtgrm" class="d-block text-reset" tabindex="-1">Apple iPhone 14 Pro , 128GB, 512GB, Deep Purple- Unlocked</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div></div></div></div></div><button type="button" class="slick-next slick-arrow" style="" aria-disabled="false"><i class="las la-angle-right"></i></button></div>
+    </div>
+</div>
+
+
+				</div>
+				<div class="bg-white text-center py-3 px-15px px-lg-25px mt-auto">
+					<p class="mb-0">© Active eCommerce CMS v7.1.0</p>
+				</div>
+			</div><!-- .aiz-main-content -->
+		</div><!-- .aiz-content-wrapper -->
+	</div><!-- .aiz-main-wrapper -->
+
+    
+
+	<script src="https://cms.anhtester.com/public/assets/js/vendors.js"></script>
+	<script src="https://cms.anhtester.com/public/assets/js/aiz-core.js"></script>
+
+    <script type="text/javascript">
+    AIZ.plugins.chart('#pie-1',{
+        type: 'doughnut',
+        data: {
+            labels: [
+                'Total published products',
+                'Total sellers products',
+                'Total admin products'
+            ],
+            datasets: [
+                {
+                    data: [
+                        1432,
+                        407,
+                        1025
+                    ],
+                    backgroundColor: [
+                        "#fd3995",
+                        "#34bfa3",
+                        "#5d78ff",
+                        '#fdcb6e',
+                        '#d35400',
+                        '#8e44ad',
+                        '#006442',
+                        '#4D8FAC',
+                        '#CA6924',
+                        '#C91F37'
+                    ]
+                }
+            ]
+        },
+        options: {
+            cutoutPercentage: 70,
+            legend: {
+                labels: {
+                    fontFamily: 'Poppins',
+                    boxWidth: 10,
+                    usePointStyle: true
+                },
+                onClick: function () {
+                    return '';
+                },
+                position: 'bottom'
+            }
+        }
+    });
+
+    AIZ.plugins.chart('#pie-2',{
+        type: 'doughnut',
+        data: {
+            labels: [
+                'Total sellers',
+                'Total approved sellers',
+                'Total pending sellers'
+            ],
+            datasets: [
+                {
+                    data: [
+                        6,
+                        3,
+                        3
+                    ],
+                    backgroundColor: [
+                        "#fd3995",
+                        "#34bfa3",
+                        "#5d78ff",
+                        '#fdcb6e',
+                        '#d35400',
+                        '#8e44ad',
+                        '#006442',
+                        '#4D8FAC',
+                        '#CA6924',
+                        '#C91F37'
+                    ]
+                }
+            ]
+        },
+        options: {
+            cutoutPercentage: 70,
+            legend: {
+                labels: {
+                    fontFamily: 'Montserrat',
+                    boxWidth: 10,
+                    usePointStyle: true
+                },
+                onClick: function () {
+                    return '';
+                },
+                position: 'bottom'
+            }
+        }
+    });
+    AIZ.plugins.chart('#graph-1',{
+        type: 'bar',
+        data: {
+            labels: [
+                                'Sport shoes',
+                                'Laptop',
+                                'Cake',
+                                'Drink',
+                                'Beauty, Health &amp; Hair',
+                                'Cellphones &amp; Tabs',
+                                'Kids &amp; toy',
+                                'Automobile &amp; Motorcycle',
+                                'Men Clothing &amp; Fashion',
+                                'Women Clothing &amp; Fashion',
+                                'Book',
+                                'Acer Nitro 5 Tiger',
+                                'Acer Nitro 5 Tiger',
+                                'Pie',
+                                'alo',
+                                'test',
+                                'alo123',
+                                'alo12',
+                                'alo124',
+                                'alo125',
+                                'Category123',
+                                'Category123',
+                                'Category123',
+                                'c',
+                                'Category 1',
+                                'Category123',
+                                'Category123',
+                                'Category123',
+                                'Hao Test 1',
+                                'addProduct1',
+                                'addProduct1',
+                                'AddnewCategory',
+                                'GHuong',
+                                'Category123',
+                                'Hao Test 1',
+                                'AddNewCategory1',
+                                'AddNewCate1',
+                                'Phuong Linh',
+                                'add1',
+                                'add1',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'add1',
+                                'add1',
+                                'Hao Test 1',
+                                'GHuong',
+                                'add1',
+                                'add1',
+                                'Hao Test 1',
+                                'add1',
+                                'GHuong',
+                                'GHuong',
+                                'GHuong',
+                                'GHuong',
+                                'Hao Test 2',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'capability.setCapability(&quot;build_name&quot;,&quot;Test to ver',
+                                'capability.setCapability(&quot;build_name&quot;,&quot;Test to ver',
+                                'capability.setCapability(&quot;build_name&quot;,&quot;Test to ver',
+                                'sấcvsa',
+                                'Test123',
+                                'Category123',
+                                'T-shirt',
+                                'T-shirt',
+                                'Category123',
+                                'Category123',
+                                'Sushi',
+                                'Category123',
+                                'Test0',
+                                'Test0',
+                                'Test0',
+                                'Car',
+                                'AN test 1',
+                                'Car',
+                                'Automotive',
+                                'Acer Nitro 5 Tiger',
+                                'Acer Nitro 5 Tiger',
+                                'Acer Nitro 5 Tiger',
+                                'Acer Nitro 5 Tiger',
+                                'aka',
+                                'aka',
+                                'aka',
+                                'aka',
+                                'aka',
+                                'Cake',
+                                'Test0',
+                                'Test0',
+                                'aka',
+                                'aka',
+                                'Cake',
+                                'aka',
+                                'Category123',
+                                'aka',
+                                'aka',
+                                'aka',
+                                'aka',
+                                'Tuanbuffet2',
+                                'Tuanbuffet3',
+                                'Tuanbuffet123',
+                                'Tuanbuffet123',
+                                'Tuanbuffet123',
+                                'Tuanbuffet123',
+                                'Tuanbuffet123',
+                                'NguyenTuanAnh123ND',
+                                'Sam test',
+                                'Tuanbuffet123',
+                                'Acer Nitro 5 Tiger',
+                                'Acer Nitro 5 Tiger',
+                                'test1',
+                                '0',
+                                'Nguyễn Tuấn AnhNguyễn Tuấn Anh edited',
+                                'Cake',
+                                'Cake',
+                                'Cake',
+                                'Cake',
+                                'Cake',
+                                'Cake',
+                                'Cake',
+                                'Cake',
+                                'Cake',
+                                'qwe',
+                                'qwewqe',
+                                'Cake',
+                                'Cake',
+                                'KA 03-2024',
+                                'KA 03-2024',
+                                'KA 03-2024',
+                                'categoryName',
+                                'KA 03-2024',
+                                'KA 03-2024',
+                                'KA 03-2024',
+                                'Nguyễn Tuấn AnhNguyễn Tuấn Anh edited',
+                                'Tuanbuffet123',
+                                'Tuanbuffet123',
+                                'Cake',
+                                'data test ngày 16/5',
+                                'data test ngày 16/5',
+                                'data test ngày 16/5',
+                                'Acer Nitro 5 Tiger',
+                                'SP1',
+                                'SP2',
+                                'Category 02062024A1',
+                                'sunthuiowi',
+                                'sunthuiowi2',
+                                'sunthuiowi3',
+                                'Cake',
+                                'Cake',
+                            ],
+            datasets: [{
+                label: 'Number of sale',
+                data: [
+                    132,0,6439,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+                ],
+                backgroundColor: [
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                            'rgba(55, 125, 255, 0.4)',
+                                    ],
+                borderColor: [
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                            'rgba(55, 125, 255, 1)',
+                                    ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    gridLines: {
+                        color: '#f2f3f8',
+                        zeroLineColor: '#f2f3f8'
+                    },
+                    ticks: {
+                        fontColor: "#8b8b8b",
+                        fontFamily: 'Poppins',
+                        fontSize: 10,
+                        beginAtZero: true
+                    }
+                }],
+                xAxes: [{
+                    gridLines: {
+                        color: '#f2f3f8'
+                    },
+                    ticks: {
+                        fontColor: "#8b8b8b",
+                        fontFamily: 'Poppins',
+                        fontSize: 10
+                    }
+                }]
+            },
+            legend:{
+                labels: {
+                    fontFamily: 'Poppins',
+                    boxWidth: 10,
+                    usePointStyle: true
+                },
+                onClick: function () {
+                    return '';
+                },
+            }
+        }
+    });
+    AIZ.plugins.chart('#graph-2',{
+        type: 'bar',
+        data: {
+            labels: [
+                                'Sport shoes',
+                                'Laptop',
+                                'Cake',
+                                'Drink',
+                                'Beauty, Health &amp; Hair',
+                                'Cellphones &amp; Tabs',
+                                'Kids &amp; toy',
+                                'Automobile &amp; Motorcycle',
+                                'Men Clothing &amp; Fashion',
+                                'Women Clothing &amp; Fashion',
+                                'Book',
+                                'Acer Nitro 5 Tiger',
+                                'Acer Nitro 5 Tiger',
+                                'Pie',
+                                'alo',
+                                'test',
+                                'alo123',
+                                'alo12',
+                                'alo124',
+                                'alo125',
+                                'Category123',
+                                'Category123',
+                                'Category123',
+                                'c',
+                                'Category 1',
+                                'Category123',
+                                'Category123',
+                                'Category123',
+                                'Hao Test 1',
+                                'addProduct1',
+                                'addProduct1',
+                                'AddnewCategory',
+                                'GHuong',
+                                'Category123',
+                                'Hao Test 1',
+                                'AddNewCategory1',
+                                'AddNewCate1',
+                                'Phuong Linh',
+                                'add1',
+                                'add1',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'add1',
+                                'add1',
+                                'Hao Test 1',
+                                'GHuong',
+                                'add1',
+                                'add1',
+                                'Hao Test 1',
+                                'add1',
+                                'GHuong',
+                                'GHuong',
+                                'GHuong',
+                                'GHuong',
+                                'Hao Test 2',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'Phuong Linh',
+                                'capability.setCapability(&quot;build_name&quot;,&quot;Test to ver',
+                                'capability.setCapability(&quot;build_name&quot;,&quot;Test to ver',
+                                'capability.setCapability(&quot;build_name&quot;,&quot;Test to ver',
+                                'sấcvsa',
+                                'Test123',
+                                'Category123',
+                                'T-shirt',
+                                'T-shirt',
+                                'Category123',
+                                'Category123',
+                                'Sushi',
+                                'Category123',
+                                'Test0',
+                                'Test0',
+                                'Test0',
+                                'Car',
+                                'AN test 1',
+                                'Car',
+                                'Automotive',
+                                'Acer Nitro 5 Tiger',
+                                'Acer Nitro 5 Tiger',
+                                'Acer Nitro 5 Tiger',
+                                'Acer Nitro 5 Tiger',
+                                'aka',
+                                'aka',
+                                'aka',
+                                'aka',
+                                'aka',
+                                'Cake',
+                                'Test0',
+                                'Test0',
+                                'aka',
+                                'aka',
+                                'Cake',
+                                'aka',
+                                'Category123',
+                                'aka',
+                                'aka',
+                                'aka',
+                                'aka',
+                                'Tuanbuffet2',
+                                'Tuanbuffet3',
+                                'Tuanbuffet123',
+                                'Tuanbuffet123',
+                                'Tuanbuffet123',
+                                'Tuanbuffet123',
+                                'Tuanbuffet123',
+                                'NguyenTuanAnh123ND',
+                                'Sam test',
+                                'Tuanbuffet123',
+                                'Acer Nitro 5 Tiger',
+                                'Acer Nitro 5 Tiger',
+                                'test1',
+                                '0',
+                                'Nguyễn Tuấn AnhNguyễn Tuấn Anh edited',
+                                'Cake',
+                                'Cake',
+                                'Cake',
+                                'Cake',
+                                'Cake',
+                                'Cake',
+                                'Cake',
+                                'Cake',
+                                'Cake',
+                                'qwe',
+                                'qwewqe',
+                                'Cake',
+                                'Cake',
+                                'KA 03-2024',
+                                'KA 03-2024',
+                                'KA 03-2024',
+                                'categoryName',
+                                'KA 03-2024',
+                                'KA 03-2024',
+                                'KA 03-2024',
+                                'Nguyễn Tuấn AnhNguyễn Tuấn Anh edited',
+                                'Tuanbuffet123',
+                                'Tuanbuffet123',
+                                'Cake',
+                                'data test ngày 16/5',
+                                'data test ngày 16/5',
+                                'data test ngày 16/5',
+                                'Acer Nitro 5 Tiger',
+                                'SP1',
+                                'SP2',
+                                'Category 02062024A1',
+                                'sunthuiowi',
+                                'sunthuiowi2',
+                                'sunthuiowi3',
+                                'Cake',
+                                'Cake',
+                            ],
+            datasets: [{
+                label: 'Number of Stock',
+                data: [
+                    10056,275,2358965,0,0,0,10000,0,0,0,0,0,0,134109,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+                ],
+                backgroundColor: [
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                            'rgba(253, 57, 149, 0.4)',
+                                    ],
+                borderColor: [
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                            'rgba(253, 57, 149, 1)',
+                                    ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    gridLines: {
+                        color: '#f2f3f8',
+                        zeroLineColor: '#f2f3f8'
+                    },
+                    ticks: {
+                        fontColor: "#8b8b8b",
+                        fontFamily: 'Poppins',
+                        fontSize: 10,
+                        beginAtZero: true
+                    }
+                }],
+                xAxes: [{
+                    gridLines: {
+                        color: '#f2f3f8'
+                    },
+                    ticks: {
+                        fontColor: "#8b8b8b",
+                        fontFamily: 'Poppins',
+                        fontSize: 10
+                    }
+                }]
+            },
+            legend:{
+                labels: {
+                    fontFamily: 'Poppins',
+                    boxWidth: 10,
+                    usePointStyle: true
+                },
+                onClick: function () {
+                    return '';
+                },
+            }
+        }
+    });
+</script>
+
+    <script type="text/javascript">
+	    
+
+        if ($('#lang-change').length > 0) {
+            $('#lang-change .dropdown-menu a').each(function() {
+                $(this).on('click', function(e){
+                    e.preventDefault();
+                    var $this = $(this);
+                    var locale = $this.data('flag');
+                    $.post('https://cms.anhtester.com/language',{_token:'KtNRorlzjJWG6aleVWew8M4J3c4uVVjxcxwvlLBk', locale:locale}, function(data){
+                        location.reload();
+                    });
+
+                });
+            });
+        }
+        function menuSearch(){
+			var filter, item;
+			filter = $("#menu-search").val().toUpperCase();
+			items = $("#main-menu").find("a");
+			items = items.filter(function(i,item){
+				if($(item).find(".aiz-side-nav-text")[0].innerText.toUpperCase().indexOf(filter) > -1 && $(item).attr('href') !== '#'){
+					return item;
+				}
+			});
+
+			if(filter !== ''){
+				$("#main-menu").addClass('d-none');
+				$("#search-menu").html('')
+				if(items.length > 0){
+					for (i = 0; i < items.length; i++) {
+						const text = $(items[i]).find(".aiz-side-nav-text")[0].innerText;
+						const link = $(items[i]).attr('href');
+						 $("#search-menu").append(`<li class="aiz-side-nav-item"><a href="${link}" class="aiz-side-nav-link"><i class="las la-ellipsis-h aiz-side-nav-icon"></i><span>${text}</span></a></li`);
+					}
+				}else{
+					$("#search-menu").html(`<li class="aiz-side-nav-item"><span	class="text-center text-muted d-block">Nothing found</span></li>`);
+				}
+			}else{
+				$("#main-menu").removeClass('d-none');
+				$("#search-menu").html('')
+			}
+        }
+    </script>
+
+
+
+</body></html>
